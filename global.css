@@ -1,0 +1,13 @@
+:root {
+    --first-color: #DAA520;
+    --second-color: #FFFF;
+    --background-color: #FFFF;
+    --primary-color-text: #0d1117;
+
+}
+
+*{
+    margin: 0;
+    padding:0;
+    border: 0;
+}
