@@ -1,0 +1,60 @@
+
+#headerContainer {
+  background-color: var(--third-color);
+  padding-bottom: 28px;
+  text-align: center;
+  
+}
+
+#headerContainer a {
+  color: var(--second-color);
+  font-size: 16px; 
+  font-weight: bold;
+  text-decoration: none;
+  
+  display: inline-block;
+  padding: 4px;
+  margin-right: 8px;
+  margin-top: 16px
+}
+
+#headerContainer a:hover {
+  color: var(--first-color);
+  transition: 500ms;
+}
+
+/* mainContent */
+
+.mainContent {
+  text-align: center;
+  padding: 32px;
+
+  overflow: hidden;
+}
+
+/*profile*/
+
+   #profile img {
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+
+
+  border-radius: 50%;
+  border: 5px solid var(--first-color);
+  
+  margin-bottom: 8px;
+  margin-top: 2rem;
+}
+
+#profile h1{
+  color: var(--primary-color-text);
+  color: var(--primary-color-text);
+  margin: 4px;
+}
+
+#profile h1 {
+  font-size: 32px;
+
+}

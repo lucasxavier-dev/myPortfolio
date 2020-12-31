@@ -1,0 +1,165 @@
+
+#headerContainer {
+    background-color: var(--third-color);
+    padding-bottom: 28px;
+    text-align: center;
+    
+  }
+  
+  #headerContainer a {
+    color: var(--second-color);
+    font-size: 16px; 
+    font-weight: bold;
+    text-decoration: none;
+    
+    display: inline-block;
+    padding: 4px;
+    margin-right: 8px;
+    margin-top: 16px
+  }
+  
+  #headerContainer a:hover {
+    color: var(--first-color);
+    transition: 500ms;
+  }
+  
+  /* mainContent */
+  
+  .mainContent {
+    text-align: center;
+    padding: 32px;
+  
+    overflow: hidden;
+  }
+  
+
+/* technologys */
+
+#technologyText h1 {
+    color: var(--primary-color-text);
+    font-size: 32px;
+    
+    margin-top: 2rem;
+    
+    }
+    .technologysContainer {
+      max-width: 20rem;
+      align-items: center;
+      display: inline-grid;
+    }
+    
+    .technologysContainer #jsIcon, #nodeIcon, #reactnativeIcon, #reactjsIcon {
+    position: relative;
+       min-width:100px;
+      min-height:100px;
+      width: auto;
+      height: auto;
+    
+      margin: 16px 8px
+    }
+    
+    /* background-color: rgb(18, 18, 20);
+    margin-right: 16px;
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-image: url(https://xesque.rocketseat.dev/platform/tech/react-native.svg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+    #jsIcon {
+    border-radius: 8px;
+    
+    transition: 0.5s ease;
+    cursor: pointer;
+    } 
+    
+    #jsIcon:hover {
+      transform: scale(1.2);
+      box-shadow: 5px 5px 15px rgba(0, 0, 0,0.6);
+    }
+    
+    
+    #nodeIcon {
+    
+      border-radius: 8px;
+    
+      transition: 0.5s ease;
+      cursor: pointer;
+      } 
+      
+      #nodeIcon:hover {
+        transform: scale(1.2);
+        box-shadow: 5px 5px 15px rgba(0, 0, 0,0.6);
+      }
+    
+    #reactnativeIcon {
+    
+      border-radius: 8px;
+    
+      transition: 0.5s ease;
+      cursor: pointer;
+      } 
+      
+      #reactnativeIcon:hover {
+        transform: scale(1.2);
+        box-shadow: 5px 5px 15px rgba(0, 0, 0,0.6);
+      }
+    
+    #reactjsIcon {
+    
+      border-radius: 8px;
+    
+      transition: 0.5s ease;
+      cursor: pointer;
+      } 
+      
+      #reactjsIcon:hover {
+        transform: scale(1.2);
+        box-shadow: 5px 5px 15px rgba(0, 0, 0,0.6);
+      }
+    
+    
+      /* modal */
+
+      .modal-container {
+          background-color: rgba(0, 0, 0, 0.7);
+          width: 100%;
+          height: 100%;
+          position: fixed;
+          top: 0;
+
+      }
+
+
+
+
+    /* footer */
+    
+    #footerContainer {
+      /* background: var(--primary-color-text); */
+      padding: auto;
+      text-align: center;
+      background-color: var(--third-color);
+    
+    
+    }
+    
+    #footerContainer a {
+        color: var(--second-color);
+      font-size: 16px; 
+      font-weight: bold;
+      text-decoration: none;
+      
+      display: inline-block;
+      padding: 4px;
+      margin-right: 8px;
+      margin-bottom: 16px;
+      margin-top:16px;
+    }
+    
+    #footerContainer a:hover {
+      color: var(--first-color);
+      transition: 500ms;
+    }
+  

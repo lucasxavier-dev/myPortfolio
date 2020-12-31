@@ -1,0 +1,37 @@
+/*global.css*/
+
+:root {
+    --primary-color: #0C0024;
+      
+    --second-color: #FCC92F;
+  
+    
+    --third-color: #0F002D;
+
+    
+    --standard-color: #FFFF;
+  
+    --background-color: #FFFF;
+  
+    --first-color: #FCC92F;
+    --second-color: #FFFF;
+    
+    --primary-color-text:#0F002D;
+    --secondary-color-text:#FFFF;
+  
+  }
+  
+  *{
+    margin: 0;
+    padding:0;
+    border: 0;
+  }
+  
+  
+  * {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: var(--background-color);
+   }
