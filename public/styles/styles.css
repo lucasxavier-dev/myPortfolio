@@ -3,6 +3,8 @@
 /* .appContainer {
 } */
 
+      /* navigatorMenu */
+
 #headerContainer {
   background-color: var(--third-color);
   padding-bottom: 28px;
@@ -26,6 +28,7 @@
   color: var(--first-color);
   transition: 500ms;
 }
+
 
 /* mainContent */
 

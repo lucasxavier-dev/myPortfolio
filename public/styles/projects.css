@@ -122,14 +122,104 @@
     
       /* modal */
 
-      .modal-container {
+      .modalContainer {
           background-color: rgba(0, 0, 0, 0.7);
           width: 100%;
           height: 100%;
-          position: fixed;
+          position: fixed; /*fixado em um lugar da tela*/
           top: 0;
-
+          left: 0;
       }
+
+      .modal {
+        background-color: #968BDC;
+        width: 25rem;
+        height: 25rem;
+        margin: 5vh auto;
+        position: relative; /* relativo pai*/
+        
+    }
+
+
+
+
+        /*cardContainer  */
+    
+    .cards {
+      max-width: 880px;
+      margin: 0 auto; 
+    }
+
+    .cards #closeModal {
+      position: absolute; /*prioridade - em qualquer lugar da tela */
+      right: 8px;
+      top: 8px;
+      cursor: pointer;
+    }
+
+
+    #cardImgBlock {
+      height: 14rem;
+      background-color:rgb(216, 207, 81); 
+  }
+
+  #cardImgBlock img {
+    width: 100%;
+    height: 14rem;
+
+}
+
+#cardTextBlock {
+  padding: 16px;
+  margin: 8px auto;
+
+  color: #FFFF;
+}
+
+#cardTextBlock h3 {
+  font-size: 2rem;
+}
+
+
+
+
+#cardTextBlock a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+    
+    /* 
+    } */
+  /* 
+*/
+
+  /* .card img {
+} */
+
+  /* #cardTextBlock {
+    margin: 8px auto;
+  }
+
+  #cardTextBlock h3 {
+    font-size: 2rem;
+    margin: 4px auto;
+  }
+    #cardTextBlock p {
+      font-weight: 500;
+    }
+    #cardTextBlock a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    #cardTextBlock a:hover {
+      color: gold;
+    }
+
+ */
 
 
 
