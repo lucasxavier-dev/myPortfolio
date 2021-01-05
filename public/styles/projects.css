@@ -118,6 +118,53 @@
         transform: scale(1.2);
         box-shadow: 5px 5px 15px rgba(0, 0, 0,0.6);
       }
+
+
+
+        /*cardContainer  */
+    
+        .cards {
+          max-width: 880px;
+          margin: 0 auto; 
+        }
+    
+    
+    
+        #cardImgBlock {
+          height: 14rem;
+          background-color: #FFFF;
+      }
+    
+      #cardImgBlock img {
+        background-color: #000;
+    
+        
+        width: 100%;
+        height: 14rem;
+    
+    }
+    
+    #cardTextBlock {
+      padding: 16px;
+      margin: 8px auto;
+    
+      color: #FFFF;
+    }
+    
+    #cardTextBlock h3 {
+      font-size: 2rem;
+    }
+    
+    
+    
+    
+    #cardTextBlock a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+        
+
     
     
       /* modal */
@@ -129,10 +176,23 @@
           position: fixed; /*fixado em um lugar da tela*/
           top: 0;
           left: 0;
+
+          opacity: 0;
+          visibility: hidden;
+
+      }
+
+
+
+
+      .modalContainer.active {
+        opacity: 1;
+        visibility: visible;
       }
 
       .modal {
-        background-color: #968BDC;
+        background-color: #FFFF;
+
         width: 25rem;
         height: 25rem;
         margin: 5vh auto;
@@ -140,55 +200,21 @@
         
     }
 
-
-
-
-        /*cardContainer  */
-    
-    .cards {
-      max-width: 880px;
-      margin: 0 auto; 
-    }
-
-    .cards #closeModal {
+    .modal .closeModal {
       position: absolute; /*prioridade - em qualquer lugar da tela */
       right: 8px;
       top: 8px;
       cursor: pointer;
     }
 
-
-    #cardImgBlock {
-      height: 14rem;
-      background-color:rgb(216, 207, 81); 
-  }
-
-  #cardImgBlock img {
-    width: 100%;
-    height: 14rem;
-
-}
-
-#cardTextBlock {
-  padding: 16px;
-  margin: 8px auto;
-
-  color: #FFFF;
-}
-
-#cardTextBlock h3 {
-  font-size: 2rem;
-}
+    iframe {
+      max-width: 440px;
+      width: 100%;
+      height: 100%;
+    }
 
 
 
-
-#cardTextBlock a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-    
     /* 
     } */
   /* 
@@ -220,8 +246,6 @@
     }
 
  */
-
-
 
 
     /* footer */
