@@ -97,3 +97,45 @@
     <script src="/script.js"></script>
 </body>
 </html>
+
+
+{% extends "layout.njk" %}
+
+{% block head %}
+  <title title="title">
+    Home | Lucas Xavier
+  </title>
+{% endblock %}
+
+
+    {% block content%}
+
+<div class="mainContent">
+
+  <div id="profile">
+    <img id="profile" src="https://user-images.githubusercontent.com/61753821/103354040-43004c00-4a89-11eb-88e3-cb43f69c5584.jpg" alt="myphoto">
+    <h1>Lucas Xavier</h1>
+    <h2>CEO and CTO at
+      <a href="https://compare.com.br" target="_blank">@Compare</a>
+    </h2>
+    <p>
+      Passionate about technology and problem solving.
+    </p>
+  </div>
+
+  <div class="technologyText" id="technologyText">
+    <h1>Technologys</h1>
+  </div>
+
+  <div class="technologysContainer">
+
+    <img id="jsIcon" src="https://xesque.rocketseat.dev/platform/tech/javascript.svg" alt="JavaScript">
+    <img id="nodeIcon" src="https://xesque.rocketseat.dev/platform/tech/node.svg" alt="NodeJS">
+
+    <img id="reactnativeIcon" src="https://user-images.githubusercontent.com/61753821/103385773-8e8f1600-4ada-11eb-885b-4392a085a27d.png" alt="ReactNative">
+
+    <img id="reactjsIcon" src="https://xesque.rocketseat.dev/platform/tech/reactjs.svg" alt="ReactJS">
+
+  </div>
+
+    {% endblock%}

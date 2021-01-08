@@ -1,3 +1,7 @@
 {
-    "editor.highlightActiveIndentGuide": false
+    "editor.highlightActiveIndentGuide": false,
+    "emmet.includeLanguages": {
+        "njk": "html",
+    }
+
 }
