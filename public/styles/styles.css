@@ -167,14 +167,7 @@ cursor: pointer;
 
 /* footer */
 
-#footerContainer {
-  /* background: var(--primary-color-text); */
-  padding: auto;
-  text-align: center;
-  background-color: var(--third-color);
 
-
-}
 
 #footerContainer a {
     color: var(--second-color);

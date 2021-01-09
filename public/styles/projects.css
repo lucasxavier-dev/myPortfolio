@@ -28,8 +28,9 @@
   .mainContent {
     text-align: center;
     padding: 32px;
-  
     overflow: hidden;
+    margin-bottom: 13px;
+
   }
   
 
@@ -58,14 +59,13 @@
       text-align: center;
     }
     
-    .technologysContainer #jsIcon, #nodeIcon, #reactnativeIcon, #reactjsIcon {
-    position: relative;
-       min-width:100px;
-      min-height:100px;
+    .technologysContainer .card img {
+      position: relative;
+      min-width: 60px;
+      min-height: 50px;
       width: auto;
       height: auto;
-    
-      margin: 16px 8px
+      margin: 16px 8px;
     }
     
     /* background-color: rgb(18, 18, 20);
@@ -76,67 +76,30 @@
     background-image: url(https://xesque.rocketseat.dev/platform/tech/react-native.svg);
     background-repeat: no-repeat;
     background-size: cover; */
+
+    .card {
+      display: contents;
+    }
     
-    #jsIcon {
+    .card img {
     border-radius: 8px;
     
     transition: 0.5s ease;
     cursor: pointer;
     } 
     
-    #jsIcon:hover {
-      transform: scale(1.2);
+    .card img:hover {
+      transform: scale(1.5);
       box-shadow: 5px 5px 15px rgba(0, 0, 0,0.6);
     }
     
-    
-    #nodeIcon {
-    
-      border-radius: 8px;
-    
-      transition: 0.5s ease;
-      cursor: pointer;
-      } 
-      
-      #nodeIcon:hover {
-        transform: scale(1.2);
-        box-shadow: 5px 5px 15px rgba(0, 0, 0,0.6);
-      }
-    
-    #reactnativeIcon {
-    
-      border-radius: 8px;
-    
-      transition: 0.5s ease;
-      cursor: pointer;
-      } 
-      
-      #reactnativeIcon:hover {
-        transform: scale(1.2);
-        box-shadow: 5px 5px 15px rgba(0, 0, 0,0.6);
-      }
-    
-    #reactjsIcon {
-    
-      border-radius: 8px;
-    
-      transition: 0.5s ease;
-      cursor: pointer;
-      } 
-      
-      #reactjsIcon:hover {
-        transform: scale(1.2);
-        box-shadow: 5px 5px 15px rgba(0, 0, 0,0.6);
-      }
-
-
 
         /*cardContainer  */
     
         .cards {
           max-width: 880px;
           margin: 0 auto;
-          margin-bottom: 2remr;
+          margin-bottom: 2rem;
 
         }
     
@@ -205,8 +168,9 @@
       .modal {
         background-color: #FFFF;
         max-width: 880px;
-        width: 90%;
-        height: 90%;
+        width: 70%;
+        height: 80%;
+        border-radius: 8px;
         margin: 5vh auto;
         position: relative; /* relativo pai*/
         
@@ -234,6 +198,12 @@
     }
 #iframeImg {
   max-width: 100%;
+}
+
+
+.card {
+  margin: 1rem auto;
+  
 }
 
     /* 
@@ -271,14 +241,6 @@
 
     /* footer */
     
-    #footerContainer {
-      /* background: var(--primary-color-text); */
-      padding: auto;
-      text-align: center;
-      background-color: var(--third-color);
-    
-    
-    }
     
     #footerContainer a {
         color: var(--second-color);

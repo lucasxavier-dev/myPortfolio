@@ -19,19 +19,23 @@
 
           <section class="cards">
 
-            <div class="card" id="Gp2bUX7_WIg">
-              <img id="jsIcon" src="https://xesque.rocketseat.dev/platform/tech/javascript.svg" alt="JavaScript">
-              <h3>JavaScript</h3>
+            {%for item in items %}
 
-            </div>
+              <div class="card" id="{{item.id}}">
+                <img id="{{item.id}}" src="https://xesque.rocketseat.dev/platform/tech/{{item.img}}.svg" alt="{{item.title}}">
+                <h3>{{item.title}}</h3>
 
-            <div class="card" id="meJf53tvsWw">
+              </div>
+
+            {% endfor %}
+
+            {# <div class="card" id="meJf53tvsWw">
 
               <img id="nodeIcon" src="https://xesque.rocketseat.dev/platform/tech/node.svg" alt="NodeJS">
               <h3>NodeJS</h3>
             </div>
-
-            <div class="card" id="uLHFPt9B2Os">
+<img data-tip="TypeScript" src="https://xesque.rocketseat.dev/platform/tech/typescript.svg" alt="TypeScript" currentitem="false">
+            <div class="card" id="uLHFPt9B2Os"><li data-tip="NextJS" name="NextJS" class="sc-dTLGrV iXgTlo" currentitem="false"></li>
               <img id="reactnativeIcon" src="https://user-images.githubusercontent.com/61753821/103385773-8e8f1600-4ada-11eb-885b-4392a085a27d.png" alt="ReactNative">
               <h3>React Native</h3>
             </div>
@@ -39,7 +43,7 @@
             <div class="card" id="E1E08i2UJGI">
               <img id="reactjsIcon" src="https://xesque.rocketseat.dev/platform/tech/reactjs.svg" alt="ReactJS">
               <h3>ReactJS</h3>
-            </div>
+            </div> #}
 
           </section>
 
