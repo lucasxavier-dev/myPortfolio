@@ -30,6 +30,7 @@ module.exports = [
         img: "reactjs",
         // linkGithub: "",
         // linkLinkedin: ""
+
     },
 
 ]

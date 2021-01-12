@@ -19,6 +19,22 @@ server.get("/", function (req, res) {
     return res.render("home")
 });
 
+// server.get("/video", function (req, res) {
+//     const id = req.query.id;
+//                             //find - encontrar
+//         const video = videos.find(function (video){
+//             if (video.id == id) {
+//                 return true;
+//             }
+//         });
+
+//         if (!video) {
+//             return res.send("Content not found!")
+//         }
+    
+//     return res.render("video", { video });
+// });
+
 server.get("/projects", function (req, res) {
     return res.render("projects", {items: contentModal})
 });
